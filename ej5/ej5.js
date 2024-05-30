@@ -3,8 +3,9 @@ function calcArea(){
     const ladoB = document.getElementById("ladoB").value
     const ladoC = document.getElementById("ladoC").value
 
-    let formaB = ladoA * ladoB
-    let area2 = ladoA - ladoC
+    let triang = ladoA * ladoC / 2
+    let rect = ladoA * ladoB
+    let area = triang + rect + ladoB
     
-    alert(formaB+area2)
+    alert(area)
 }

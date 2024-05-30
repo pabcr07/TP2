@@ -3,6 +3,6 @@ function calcularIMC(){
     const altura = document.getElementById("altura").value
 
     let imc = peso / altura**2
-    alert(parseInt(imc))
+    alert(imc)
 
  }
