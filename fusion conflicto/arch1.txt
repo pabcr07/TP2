@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 texto cambiado
-=======
-ayuda por favor
->>>>>>> rc2
