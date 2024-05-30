@@ -19,7 +19,7 @@ function validar(){
     if(altura < 0 || altura > 230){
         errores.push("altura no valida")
     } 
-     if(email === ""){
+     if(email === "" || !email.includes("@")){
         errores.push("email no valido")
     } 
     
