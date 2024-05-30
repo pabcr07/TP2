@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 zzzzzz
+=======
+pablito clavo un clavito
+>>>>>>> rc2
