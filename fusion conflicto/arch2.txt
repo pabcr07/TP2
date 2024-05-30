@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 zzzzzz
 =======
 pablito clavo un clavito
 >>>>>>> rc2
+=======
+riquelme,palermo,palacio
+>>>>>>> rc3
