@@ -1,4 +1,5 @@
 function validar(){
+    
     const nombre = document.getElementById("nombre").value
     const apellido = document.getElementById("apellido").value
     const edad = document.getElementById("edad").value
@@ -23,7 +24,7 @@ function validar(){
         errores.push("email no valido")
     } 
     
-    if (errores.length == 0){
+    if (errores.length === 0){
         mensaje.innerText = "Validaciones correctas"
         mensaje.style.color = "green"
     } else{

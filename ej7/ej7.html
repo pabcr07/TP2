@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="ej7.css">
+    <title>Usuarios API</title>
 </head>
 <body>
-    <div>
-        <button id="tareas" onClick=verTareas()>Ver Tareas</button>    
-        <ol id="listado"></ol>
+    <label>Listado</label>
+    <button id="mostrar">Mostrar personas</button>
+    <div id="container">
+        <div id="container2">
+            <ol id="listado"></ol>
+        </div>
+        <div id="containerTareas">
+            <label id="listadoTareas">Tareas</label><br><br>
+            <div id="tareas"></div><br><br>
+        </div>
     </div>
 </body>
 <script src="ej7.js"></script>
